@@ -15,9 +15,11 @@ Description:<br>
 •	PC0 and PC1 are assigned to VLAN 10.<br>
 •	PC2 and PC3 are assigned to VLAN 20.<br>
 •	All PCs are connected to different ports on the same switch.<br>
-<img width="1920" height="1080" alt="Screenshot (248)" src="https://github.com/user-attachments/assets/f88178e0-9ed0-47f3-bbec-d9f8e9a50337" />
 
-________________________________________
+<img width="712" height="570" alt="Screenshot 2026-10-28 175147" src="https://github.com/user-attachments/assets/4beba9a2-e4c8-436e-9f1b-315583eaac69" />
+
+<img width="656" height="595" alt="Screenshot 2026-10-28 175035" src="https://github.com/user-attachments/assets/1a82c7a9-028c-484c-b3f2-1b3a1866e576" />
+__________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port<br>
 PC0	10	192.168.10.1	255.255.255.0	FastEthernet0/1<br>
@@ -68,18 +70,11 @@ ________________________________________
 <img width="1920" height="1080" alt="Screenshot 2026-10-28 180028" src="https://github.com/user-attachments/assets/6db409ab-88c9-4c69-bc48-8143428df8b5" />
 
 
-<img width="1920" height="1080" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/87300cbe-21ba-46c5-b77a-739334e12583" />
 
 •	Successful ping between PCs in the same VLAN<br>
-<img width="687" height="330" alt="Screenshot 2026-10-28 180703" src="https://github.com/user-attachments/assets/0748231e-754b-47e6-8602-15ad3d3bbf47" />
-
-<img width="712" height="570" alt="Screenshot 2026-10-28 175147" src="https://github.com/user-attachments/assets/4beba9a2-e4c8-436e-9f1b-315583eaac69" />
-
-
 •	Failed ping between PCs in different VLANs<br>
-<img width="745" height="330" alt="Screenshot 2026-10-28 180656" src="https://github.com/user-attachments/assets/a48698d5-c6e4-4184-b092-0614df5620ae" />
+<img width="1920" height="1080" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/87300cbe-21ba-46c5-b77a-739334e12583" />
 
-<img width="656" height="595" alt="Screenshot 2026-10-28 175035" src="https://github.com/user-attachments/assets/1a82c7a9-028c-484c-b3f2-1b3a1866e576" />
 
 ________________________________________
 # Result
