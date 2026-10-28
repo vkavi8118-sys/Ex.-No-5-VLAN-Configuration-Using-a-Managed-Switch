@@ -1,5 +1,5 @@
 ## Ex. No: 5  VLAN Configuration Using a Managed Switch
-Date:
+Date:28.10.2026
 ________________________________________
 # Objective
 To configure Virtual Local Area Networks (VLANs) on a managed switch and verify that hosts within the same VLAN can communicate while others cannot.
@@ -15,7 +15,8 @@ Description:<br>
 •	PC0 and PC1 are assigned to VLAN 10.<br>
 •	PC2 and PC3 are assigned to VLAN 20.<br>
 •	All PCs are connected to different ports on the same switch.<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1920" height="1080" alt="Screenshot (248)" src="https://github.com/user-attachments/assets/f88178e0-9ed0-47f3-bbec-d9f8e9a50337" />
+
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port<br>
@@ -61,9 +62,25 @@ Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on switch<br>
+<img width="1920" height="1080" alt="Screenshot (247)" src="https://github.com/user-attachments/assets/5fec6d54-dc48-49dc-bc3f-5e0238eb7c7f" />
+
 •	PC IP settings<br>
+<img width="1920" height="1080" alt="Screenshot 2026-10-28 180028" src="https://github.com/user-attachments/assets/6db409ab-88c9-4c69-bc48-8143428df8b5" />
+
+
+<img width="1920" height="1080" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/87300cbe-21ba-46c5-b77a-739334e12583" />
+
 •	Successful ping between PCs in the same VLAN<br>
+<img width="687" height="330" alt="Screenshot 2026-10-28 180703" src="https://github.com/user-attachments/assets/0748231e-754b-47e6-8602-15ad3d3bbf47" />
+
+<img width="712" height="570" alt="Screenshot 2026-10-28 175147" src="https://github.com/user-attachments/assets/4beba9a2-e4c8-436e-9f1b-315583eaac69" />
+
+
 •	Failed ping between PCs in different VLANs<br>
+<img width="745" height="330" alt="Screenshot 2026-10-28 180656" src="https://github.com/user-attachments/assets/a48698d5-c6e4-4184-b092-0614df5620ae" />
+
+<img width="656" height="595" alt="Screenshot 2026-10-28 175035" src="https://github.com/user-attachments/assets/1a82c7a9-028c-484c-b3f2-1b3a1866e576" />
+
 ________________________________________
 # Result
 Successfully created and configured VLANs on a managed switch. Verified that only PCs within the same VLAN could communicate with each other.
